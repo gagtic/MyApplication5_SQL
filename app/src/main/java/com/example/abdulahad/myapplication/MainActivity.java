@@ -25,6 +25,7 @@ public class MainActivity extends AppCompatActivity {
         cnic = findViewById(R.id.e2);
         button = findViewById(R.id.b1);
         search = findViewById(R.id.search);
+        Toast.makeText(this, "Hello World", Toast.LENGTH_SHORT).show();
         button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
